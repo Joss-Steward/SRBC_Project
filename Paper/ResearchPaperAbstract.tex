@@ -1,0 +1,80 @@
+%
+% latex-sample.tex
+%
+% This LaTeX source file provides a template for a typical research paper.
+%
+
+%
+% Use the standard article template.
+%
+\documentclass[twocolumn]{article}
+
+% The geometry package allows for easy page formatting.
+\usepackage{geometry}
+\geometry{letterpaper}
+
+% Load up special logo commands.
+\usepackage{doc}
+
+% Package for formatting URLs.
+\usepackage{url}
+
+% Packages and definitions for graphics files.
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+%
+% Set the title, author, and date.
+%
+\title{Ensuring good user experience in web applications through optimization and data compression}
+
+%The Ampersand is typically interpreted as a command, so we must use the \ to exempt it
+\author{Joss C. Steward \& Sravani Eswara Munnangi}
+\date{March 05, 2014}
+
+%
+% The document proper.
+%
+\begin{document}
+
+% Add the title section.
+\maketitle
+
+% Add an abstract.
+\abstract{
+Today more data will be gathered and processed than ever before. This is the age of Big Data. However, with huge amounts of data comes huge performance issues. Although many performance problems can be solved simply by throwing more computing power at them, we wish to solve these problems through software optimization instead of hardware improvements. We propose a research project focused on allowing rapid access to large amounts of data on sub-par hardware. Our project will focus on the efficient storage and rapid retrieval of infrequently accessed data.
+
+The sample data for this project will come from the real world. We have decided to use water-quality information gathered by the Susquehanna River Basin Commission and made available to the public through their web site. At the current time, the Susquehanna River Basin Commission (SRBC) provides free access to water quality data gathered prior to December 31, 2011.  For data gathered after January 1, 2012 there is a \$250 fee per quarter\footnote{See the SRBC's page here: \url{http://www.docs.is.ed.ac.uk/skills/documents/3728/3728.pdf}}. In practice, this means we will be using data gathered prior to December 31, 2011 as our sample data for the foreseeable future.
+
+A quick glance at the data gathered in Q1 of 2010 reveals that the SRBC has been gathering water-quality data from 60 stations. The sample rate seems to vary between stations from once every 5 seconds to once every 4 hours. Presumably, the SRBC does not have the resources to monitor all the stations all the time. Each sample contains the following information: Water Temperature, Specific Conductivity, PH level, Turbidity, and Dissolved Oxygen Content. Each sample also includes metadata consisting of the time stamp and station name. 
+
+As far as sheer scale goes, this is not actually a overwhelming amount of data. Assuming one sample every 5 seconds, each station would produce approximately 6,307,200 samples per year. Given 60 stations, that would be 378,432,000 samples per year. This may seem like a lot, but given that the largest SQL Server databases in 2008 were exceeding 1 Petabyte in size\footnote{See Microsoft's press release here: \url{http://news.softpedia.com/news/Microsoft-Applauds-1-1-Petabytes-SQL-Server-2008-Database-97388.shtml}.} adding fewer than 400 million rows per year is not actually that much data. However, it should be obvious that not every organization capable of producing data on this scale can afford to run server farms powerful enough to process and store this much data.
+
+Ideally, we will be able to store all of the data collected and still be able to access it in reasonable amounts of time on relatively low end hardware. To accurately gauge performance, we will store the data in a indexed SQL Server database and compare the resulting size and performance to any other data storage schemes we come up with. Other possibilities include storing infrequently accessed data in segmented compressed files and storing statistics such as min, max, standard deviation, and etc on each segment of data in a SQL Server Database. 
+
+The overall performance may be satisfactory using existing software. If that is the case, we will still attempt to achieve a performance gain through the use of special techniques. Our hope is that this study will aid in the storage and analysis of large amounts of data on slower, more power efficient hardware than is currently required.
+}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

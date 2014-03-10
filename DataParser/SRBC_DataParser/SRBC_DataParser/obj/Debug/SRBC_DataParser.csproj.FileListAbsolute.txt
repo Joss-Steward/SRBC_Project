@@ -7,3 +7,12 @@ G:\Programming\Github\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\ob
 G:\Programming\Github\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.exe
 G:\Programming\Github\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.pdb
 G:\Programming\Github\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.mainForm.resources
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\bin\Debug\SRBC_DataParser.exe.config
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.exe
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.pdb
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\bin\Debug\SRBC_DataParser.exe
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\bin\Debug\SRBC_DataParser.pdb
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.csprojResolveAssemblyReference.cache
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.mainForm.resources
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.Properties.Resources.resources
+C:\Users\joss\Documents\GitHub\SRBC_Project\DataParser\SRBC_DataParser\SRBC_DataParser\obj\Debug\SRBC_DataParser.csproj.GenerateResource.Cache
