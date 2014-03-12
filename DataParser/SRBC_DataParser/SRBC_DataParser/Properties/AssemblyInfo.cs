@@ -5,10 +5,10 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SRBC_DataParser")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Water Quality Data Parser")]
+[assembly: AssemblyDescription("This is the data parser used to upload infomation from tab-delimited files to the SRBC database.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Shippensburg University")]
 [assembly: AssemblyProduct("SRBC_DataParser")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]

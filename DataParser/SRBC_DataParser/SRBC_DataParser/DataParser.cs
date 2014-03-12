@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Threading;
 using System.Data.Sql;
+using System.Data.SqlClient;
 
 namespace SRBC_DataParser {
     class DataParser {
         String sourceFilePath;
         char[] delimiters;
+        
 
         public Dictionary<String, int> stationToIDDict;
         public List<String[]> values;
@@ -57,6 +59,12 @@ namespace SRBC_DataParser {
             }
 
             file.Close();
+        }
+
+        //Ensures all the stations listed in the file are also in the database
+        private int syncStations()
+        {
+            return 0;
         }
 
         //Scans the first line and initializes the fields list

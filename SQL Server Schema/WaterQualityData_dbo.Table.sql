@@ -1,7 +1,7 @@
 ﻿CREATE TABLE [dbo].[WaterQualityData] (
-    [ID]                   BIGINT     NOT NULL,
+    [ID]                   BIGINT     NOT NULL IDENTITY,
     [StationID]            INT        NOT NULL,
-    [SampleTime]           ROWVERSION NOT NULL,
+    [SampleTime]           DATETIME NOT NULL,
     [Temperature]          FLOAT (53) NULL,
     [SpecificConductivity] FLOAT (53) NULL,
     [PH]                   FLOAT (53) NULL,
@@ -14,5 +14,5 @@
 
 GO
 CREATE CLUSTERED INDEX [IX_WaterQualityData_SampleTime]
-    ON [dbo].[WaterQualityData]([SampleTime], [StationID]);
+    ON [dbo].[WaterQualityData]([SampleTime] ASC, [StationID] ASC);
 
