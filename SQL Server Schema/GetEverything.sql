@@ -3,4 +3,4 @@
 GO
 SELECT * FROM WaterQualityData 
 WHERE 
-StationID = (SELECT a.ID FROM dbo.StationMetaData a WHERE (a.StationName = 'TESTSTATION2'));
+StationID = (SELECT a.ID FROM dbo.StationMetaData a WHERE (a.StationName = 'Bobs Creek                                        '));

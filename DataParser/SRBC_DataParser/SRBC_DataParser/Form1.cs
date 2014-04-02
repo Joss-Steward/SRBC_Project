@@ -30,7 +30,7 @@ namespace SRBC_DataParser
             parser = new DataParser(TXT_fileName.Text, delims);
             parser.parseFile();
 
-            LIST_Parameters.Items.AddRange(parser.fields);
+            //LIST_Parameters.Items.AddRange(parser.fields);
 
             foreach (KeyValuePair<String, int> pair in parser.stationToIDDict) 
                 LIST_Stations.Items.Add(pair.Key);            
