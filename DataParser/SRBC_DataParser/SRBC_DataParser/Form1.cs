@@ -33,7 +33,7 @@ namespace SRBC_DataParser
             LIST_Parameters.Items.AddRange(parser.fields);
 
             foreach (KeyValuePair<String, int> pair in parser.stationToIDDict) 
-                LIST_Stations.Items.Add(pair.Key);                        
+                LIST_Stations.Items.Add(pair.Key);            
         }
     }
 }
