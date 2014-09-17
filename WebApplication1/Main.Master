@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        <asp:Table ID="Table1" runat="server" Width="100%">
+                <asp:TableRow Width="1000px">
+                    <asp:TableCell HorizontalAlign="Right">
+                        <asp:Image ID="Image1" runat="server" Height="50px" ImageUrl="~/Images/logo.jpg" Width="77px" />
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell BackColor="#99ccff">
+                        <asp:HyperLink ID="home" runat="server" NavigateUrl="~/Home.aspx">Home</asp:HyperLink>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:HyperLink ID="srbc" runat="server" NavigateUrl="~/SRBC.aspx">SRBC</asp:HyperLink>
+                    </asp:TableCell>
+                </asp:TableRow>
+
+            </asp:Table>
+
+
+
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="Content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
